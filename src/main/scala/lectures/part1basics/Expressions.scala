@@ -1,4 +1,4 @@
-package lectures
+package part1basics
 
 object Expressions extends App {
 
@@ -11,7 +11,7 @@ object Expressions extends App {
   println(1 == x)
   // == != > >= < <=
 
-  println(! (1 == x))
+  println(!(1 == x))
   // ! && ||
 
   var aVariable = 2
@@ -22,9 +22,9 @@ object Expressions extends App {
 
   // IF expression
   val aCondition = true
-  val aConditionedValue = if(aCondition) 5 else 3 // IF EXPRESSION
+  val aConditionedValue = if (aCondition) 5 else 3 // IF EXPRESSION
   println(aConditionedValue)
-  print(if(aCondition) 5 else 3)
+  print(if (aCondition) 5 else 3)
   println(1 + 3)
 
   var i = 0

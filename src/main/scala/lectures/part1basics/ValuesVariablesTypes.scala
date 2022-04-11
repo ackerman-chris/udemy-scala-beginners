@@ -12,7 +12,7 @@ object ValuesVariablesTypes extends App {
 
   // COMPILER CAN INFER TYPES
 
-  val aString : String = "Hello"
+  val aString: String = "Hello"
   val anotherString = "Goodbye"
   println(aString + " " + anotherString)
 
